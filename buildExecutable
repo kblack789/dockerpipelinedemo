@@ -1,6 +1,6 @@
 cd /
-cd /Users/keblack/git/jenkinsdockerdemo
+cd /Users/keblack/git/dockerpipelinedemo
 docker stop helloworld
 docker rm helloworld
-docker build -t hello-world /Users/keblack/git/jenkinsdockerdemo/
-docker run -d --name helloworld -p 80:80 -v /Users/keblack/git/jenkinsdockerdemo/src/:/var/www/html hello-world
+docker build -t hello-world /Users/keblack/git/dockerpipelinedemo/
+docker run -d --name helloworld -p 80:80 -v /Users/keblack/git/dockerpipelinedemo/src/:/var/www/html hello-world
