@@ -1,4 +1,4 @@
 <?php
-$welcome = "Hello from  Pipelineeeeee!";
+$welcome = "Hello from  Pipelineeeeeee!";
 echo $welcome;
 ?>
